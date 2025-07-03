@@ -1,4 +1,4 @@
-package com.example.orderservice.service;
+package com.example.order_service.service;
 
 import com.microcommerce.orderservice.client.CustomerClient;
 import com.microcommerce.orderservice.model.CustomerDTO;

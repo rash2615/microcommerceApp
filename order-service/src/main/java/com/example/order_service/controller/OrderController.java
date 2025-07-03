@@ -1,4 +1,4 @@
-package com.example.orderservice.controller;
+package com.microcommerce.order_service.controller;
 
 import com.microcommerce.orderservice.model.Order;
 import com.microcommerce.orderservice.service.OrderService;
