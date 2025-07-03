@@ -1,4 +1,4 @@
-package com.microcommerce.orderservice.controller;
+package com.example.orderservice.controller;
 
 import com.microcommerce.orderservice.model.Order;
 import com.microcommerce.orderservice.service.OrderService;
@@ -33,4 +33,10 @@ public class OrderController {
     public void deleteOrder(@PathVariable Long id) {
         orderService.deleteOrder(id);
     }
+
+    @GetMapping("/{id}/with-customer")
+    public OrderWithCustomerDetails getOrderWithCustomer(@PathVariable Long id) {
+        return orderService.getOrderWithCustomer(id);
+    }
+
 }

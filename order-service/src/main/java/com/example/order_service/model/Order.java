@@ -1,4 +1,4 @@
-package com.microcommerce.orderservice.model;
+package com.example.orderservice;
 
 import jakarta.persistence.*;
 import lombok.*;
